@@ -1,0 +1,59 @@
+/* Start Font-Family from Google Fonts
+
+
+
+  font-family: 'Black Ops One', cursive;
+
+  font-family: 'Orbitron', sans-serif;
+
+  font-family: 'Audiowide', cursive;
+
+  font-family: 'Special Elite', cursive;
+
+*/
+body
+{
+  background-image: url('img/bckg.jpg');
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.bnr
+{
+  margin-top: 20px;
+}
+
+/* Start Jumbotron Font-Family */
+.jmb-h1-txt
+{
+  font-family: 'Black Ops One', cursive;
+}
+.jmb-p-txt
+{
+  font-family: 'Special Elite', cursive;
+}
+/* End Jumbotron Font-Family */
+
+/* Start Row Heading Text */
+.row-h3-txt
+{
+  font-family: 'Orbitron', sans-serif;
+}
+/* End Row Heading Text */
+
+/* Start Row Paragraph Text */
+.row-p-txt
+{
+  font-family: 'Audiowide', cursive;
+}
+/* End Row Paragraph Text */
+
+/* Start Row Images */
+.row-img
+{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}

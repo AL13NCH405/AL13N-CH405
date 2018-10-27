@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<head>
+  <!-- Start Web Page Elements -->
+  <title>AL13N CH405</title>
+  <link rel=icon href="img/favicon.ico" sizes="16x16" type="image/png">
+  <!-- End Web Page Elements -->
+
+  <!-- Start Meta Tags -->
+  <meta tag="description"    content="Hackers 4 Hire! Coding | Hacking | Servers" />
+  <meta tag="copyright"      content="AL13N CH405 (D0C D14BL0)"/>
+  <meta tag="robots"         content="index, follow"/>
+  <meta tag="Classification" content="Business"/>
+  <meta tag="reply-to"       content="D0C D14BL0, d0cd14bl0@protonmail.com"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- End Meta Tags -->
+
+  <!-- Start CSS/JS Importations -->
+  <link rel="stylesheet" type="text/css" href="gui.css"/>
+  <link rel="stylesheet" type="text/css" href="header.css"/>
+  <link rel="stylesheet" type="text/css" href="intel-box.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Black+Ops+One|Orbitron|Special+Elite" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script type="text/javascript" src="functions.js"></script>
+  <!-- End CSS/JS Importations -->
+</head>
+
+<body>
+  <!-- Start Header Nav Bar -->
+  <div class="header">
+    <a href="#default" class="logo">AL13N CH405</a>
+    <div class="header-right">
+      <a class="active" href="#home">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="gear.html">Gear</a>
+      <a href="gallery.html">Gallery</a>
+    </div>
+  </div>
+  <!-- End Header Nav Bar -->
+
+  <!-- Start Jumbotron Banner -->
+  <div class="jumbotron text-center bnr" style="background-color: rgba(0,0,0,0.8);">
+    <h1 class="jmb-h1-txt" style="color: #00F">AL13N CH405</h1>
+    <p class="jmb-p-txt" style="color: #0F0">Hackers | Coders | Server Admins</p>
+  </div>
+  <!-- End Jumbotron Banner -->
+
+  <!-- Start Containers -->
+  <div class="container">
+    <div class="row">
+      <!-- Start First Row -->
+      <div class="col-sm-4" style="background-color: rgba(0,0,0,0.6);">
+        <h3 class="row-h3-txt" style="color: #0F0;">Hackers!</h3>
+        <img src="img/anon.png" alt="Hackers!" class="row-img">
+        <p class="row-p-txt" style="color: #FFF">Ethical Pen Testers</p>
+        <p class="row-p-txt" style="color: #FFF">Allow us to test your website & server for vulnerabilities & weaknesses!</p>
+        <button type="button" class="btn btn-primary btn-lg btn-block" onclick="HackersFunction()">Learn More!</button>
+      </div>
+      <!-- End Second Row -->
+
+      <!-- Start Second Row -->
+      <div class="col-sm-4" style="background-color: rgba(0,0,255,0.6);">
+        <h3 class="row-h3-txt" style="color: #FFF">Coders!</h3>
+        <img src="img/code.png" alt="Coders!" class="row-img">
+        <p class="row-p-txt" style="color: #FFF">Web & Mobile</p>
+        <p class="row-p-txt" style="color: #FFF">We can build secured websites & mobile apps for any need and any company!</p>
+        <button type="button" class="btn btn-secondary btn-lg btn-block" onclick="CodersFunction()">Learn More!</button>
+      </div>
+      <!-- End Second Row -->
+
+      <!-- Start Third Row -->
+      <div class="col-sm-4" style="background-color: rgba(0,255,0,0.6);">
+        <h3 class="row-h3-txt" style="color: #000">Server Admins!</h3>
+        <img src="img/server.png" alt="Servers!" class="row-img">
+        <p class="row-p-txt" style="color: #FFF">Security Engineers</p>
+        <p class="row-p-txt" style="color: #FFF">Allow us to protect your server(s) and keep people like us out!</p>
+        <button type="button" class="btn btn-primary btn-lg btn-block" onclick="ServersFunction()">Learn More!</button>
+      </div>
+      <!-- End Third Row -->
+    </div>
+  </div>
+  <!-- End Containers -->
+
+  <!-- Start Hackers Intel Box -->
+  <div id="Hackers" class="hck-box" style="display: none">
+    <h1 class="hackers-h1-txt">We are Hackers!</h1>
+    <p class="hackers-p-txt">
+      We provide you with detailed reports upon our investigations. Each client
+      will be subjected to contract agreements in order to protect both parties. We utilize several
+      techniques in order to inflitrate your desired website, server, building in order to gain access
+      to restricted content.</p>
+    <p class="hackers-p-txt">Some of the scripts we utilize are;<br/>
+      * WPScan<br/>
+      * SQLMap<br/>
+      * AndroDump<br/>
+      * DroidSQLi<br/>
+      * BruteForce<br/>
+      * Hammer<br/>
+      * + More!
+    </p>
+    <p class="hackers-p-txt">
+      Are services for hacking includes;<br/>
+      * Websites<br/>
+      * Mobile Apps<br/>
+      * Social Engineering<br/>
+      * Physical Locations<br/>
+      * Servers<br/>
+      * Wi-Fi<br/>
+      * + More!
+    </p>
+    <button type="button" class="btn btn-danger">Contact Us!</button>
+  </div>
+  <!-- End Hackers Intel Box -->
+
+  <!-- Start Coders Intel Box -->
+  <div id="Coders" class="cde-box" style="display: none">
+    <h1 class="coders-h1-txt">We are Coders!</h1>
+    <p class="coders-p-txt">
+      Our team specializes in the creation & development of custom websites,
+      web-based applications, and mobile applications. We aim to not only deliver
+      you the ultimate website and app for your companies needs, but we also secure
+      our code as best as possible!
+    </p>
+    <p class="coders-p-txt">This can include;<br/>
+      * Securing PHP<br/>
+      * Securing Database Connections<br/>
+      * Using Latest Programming Languages<br/>
+      * Custom Git Servers<br/>
+      * + More!
+    </p>
+    <p class="coders-p-txt">Our Languages Includes;<br/>
+      * HTML5<br/>
+      * CSS3<br/>
+      * Ruby on Rails<br/>
+      * Android Studio<br/>
+      * X-Code<br/>
+      * Swift<br/>
+      * Python<br/>
+      * + More
+    </p>
+    <button type="button" class="btn btn-danger">Contact Us!</button>
+  </div>
+  <!-- End Coders Intel Box -->
+
+  <!-- Start Servers Intel Box -->
+  <div id="Servers" class="srv-box" style="display: none">
+    <h1 class="servers-h1-txt">We are Coders!</h1>
+    <p class="servers-p-txt">
+      Our team specializes in the creation & development of custom websites,
+      web-based applications, and mobile applications. We aim to not only deliver
+      you the ultimate website and app for your companies needs, but we also secure
+      our code as best as possible!
+    </p>
+    <p class="servers-p-txt">This can include;<br/>
+      * Securing PHP<br/>
+      * Securing Database Connections<br/>
+      * Using Latest Programming Languages<br/>
+      * Custom Git Servers<br/>
+      * + More!
+    </p>
+    <p class="servers-p-txt">Our Languages Includes;<br/>
+      * HTML5<br/>
+      * CSS3<br/>
+      * Ruby on Rails<br/>
+      * Android Studio<br/>
+      * X-Code<br/>
+      * Swift<br/>
+      * Python<br/>
+      * + More
+    </p>
+    <button type="button" class="btn btn-danger">Contact Us!</button>
+  </div>
+  <!-- End Servers Intel Box -->
+</body>
